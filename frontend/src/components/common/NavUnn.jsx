@@ -5,8 +5,8 @@ const NavUnn = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <nav className="bg-black flex justify-between sm:justify-around items-center p-3 w-full gap-2 sm:gap-10 relative">
-      <div className="flex items-center">
+    <nav className="bg-black/90 flex justify-between sm:justify-around items-center p-3 w-full gap-2 sm:gap-10 relative">
+      <div className="flex items-center ">
         <div>
           <img
             src={Unnati}
@@ -15,10 +15,10 @@ const NavUnn = () => {
           />
         </div>
         <div className="text-white flex flex-col justify-center">
-          <h1 className="tracking-widest font-extrabold text-[11px] sm:text-[12px] md:text-[15px] md:text-sm oswald-font">
+          <h1 className="tracking-widest font-extrabold text-[11px] sm:text-[12px] md:text-[15px] md:text-sm oswald-font xl:text-[18px]">
             UNNATI SOCIETY
           </h1>
-          <p className="text-[7px] sm:text-[8px] md:text-[9px] w-full text-gray-400 font-bold tracking-wide oswald-font-2">
+          <p className="text-[7px] sm:text-[8px] md:text-[9px] xl:text-[10.5px] w-full text-gray-400 font-bold tracking-wide oswald-font-2">
             AN INSTITUTE OUTREACH ACTIVITY
           </p>
         </div>
@@ -29,7 +29,7 @@ const NavUnn = () => {
         <h3 className="px-1 sm:px-3 py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px]">ABOUT</h3>
         <h3 className="px-1 sm:px-3 py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px]">MEDIA</h3>
         <h3 className="px-1 sm:px-3 py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px]">PROGRAMS</h3>
-        <h3 className="bg-blue-400 px-3 py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px]">JOIN US</h3>
+        <h3 className="bg-blue-400 px-3 py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px] oswald-font-3">JOIN US</h3>
       </div>
 
       <div className="flex sm:hidden">
@@ -42,7 +42,7 @@ const NavUnn = () => {
       </div>
 
       {show && (
-        <div className="flex flex-col text-gray-100 gap-2 font-semibold absolute right-3 top-14 bg-black p-3 rounded-md shadow-lg border border-gray-700 sm:hidden">
+        <div className="flex flex-col text-black gap-2 font-bold absolute right-3 top-15 bg-white p-3 shadow-lg sm:hidden">
           <h3 className="cursor-pointer text-[11px]">HOME</h3>
           <h3 className="cursor-pointer text-[11px]">ABOUT</h3>
           <h3 className="cursor-pointer text-[11px]">MEDIA</h3>
