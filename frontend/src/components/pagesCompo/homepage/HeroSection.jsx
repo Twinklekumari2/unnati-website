@@ -4,7 +4,7 @@ import herosection from './../../../assets/herosection.jpeg'
 
 const HeroSection = () => {
   return (
-    <section className="bg-black text-white flex justify-start pt-10 pb-30 px-62 sm:py-30 sm:pb-51 items-center min-h-[50vh]">
+    <section className="bg-black text-white flex justify-start pt-10 pb-10 xl:pb-52 px-10 xl:px-62 sm:py-30 sm:pb-51 items-center min-h-[50vh]">
       <div className="flex flex-col justify-start gap-4">
         <div className="oswald-font text-5xl tracking-wide">
           <h1>EMPOWERING</h1>
