@@ -7,7 +7,9 @@ const Vision = () => {
       <div className="flex flex-col md:flex-row justify-center items-center ">
         <div className="w-full md:w-1/2 flex flex-col gap-4">
           <div>
-            <p className="w-fit inter-font text-gray-900 border-4 border-t-black pt-15 border-b-0 border-l-0 border-r-0">OUR VISION</p>
+            <p className="w-fit inter-font text-gray-900 border-4 border-t-black pt-15 border-b-0 border-l-0 border-r-0">
+              OUR VISION
+            </p>
           </div>
           <div>
             <h1 className="oswald-font text-4xl">EQUITABLE OPPORTUNITIES</h1>
@@ -15,35 +17,41 @@ const Vision = () => {
           </div>
           <div>
             <div>
-                <div>
-
-                </div>
-                <div>
-                    <h2 className="oswald-font-3">PLATFORM TO ALL</h2>
-                    <p className="inter-font">Fostering a fair chance for personal growth and success.</p>
-                </div>
+              <div></div>
+              <div>
+                <h2 className="oswald-font-3">PLATFORM TO ALL</h2>
+                <p className="inter-font">
+                  Fostering a fair chance for personal growth and success.
+                </p>
+              </div>
             </div>
             <div>
-                <div>
-
-                </div>
-                <div>
-                    <h2 className="oswald-font-3">CONSTANT DEVELOPMENT</h2>
-                    <p className="inter-font">Preparing students to face constant revolution and development.</p>
-                </div>
+              <div></div>
+              <div>
+                <h2 className="oswald-font-3">CONSTANT DEVELOPMENT</h2>
+                <p className="inter-font">
+                  Preparing students to face constant revolution and
+                  development.
+                </p>
+              </div>
             </div>
             <div>
-                <div></div>
-                <div>
-                    <h2 className="oswald-font-3">SCHOLARSHIPS</h2>
-                    <p className="inter-font">Providing financial aid to ensure no child is left behind.</p>
-                </div>
+              <div></div>
+              <div>
+                <h2 className="oswald-font-3">SCHOLARSHIPS</h2>
+                <p className="inter-font">
+                  Providing financial aid to ensure no child is left behind.
+                </p>
+              </div>
             </div>
-            
           </div>
         </div>
         <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 h-full mt-4 ">
-          <img src={mission} alt="vision" className=" object-fill h-96 border-none rounded-4xl "/>
+          <img
+            src={mission}
+            alt="vision"
+            className=" object-fill h-96 border-none rounded-4xl "
+          />
         </div>
       </div>
     </section>
