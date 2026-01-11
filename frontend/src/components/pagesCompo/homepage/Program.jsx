@@ -2,14 +2,14 @@ import React from "react";
 
 const Program = () => {
   return (
-    <section className="flex justify-center items-center py-30 px-10">
-      <div className="flex flex-col gap-4">
+    <section className="flex justify-center items-center w-screen py-30 px-10">
+      <div className="flex flex-col gap-4 w-3/4">
         <div className="w-20 h-1 bg-blue-400"></div>
         <div>
           <h1 className="oswald-font-3 text-4xl">
             WE ARE CREATING A PLACE WHERE
           </h1>
-          <h1 className="oswald-font-3 text-4xl">STUDENTS CAN THRIVE</h1>
+          <h1 className="oswald-font-3 text-4xl mb-5">STUDENTS CAN THRIVE</h1>
         </div>
         <div className="flex gap-5">
           <div className="h-72 w-60 border-2 border-amber-300 relative">

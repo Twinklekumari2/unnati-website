@@ -7,6 +7,8 @@ import Vision from '../components/pagesCompo/homepage/Vision'
 import Program from '../components/pagesCompo/homepage/Program'
 import Data from '../components/pagesCompo/homepage/Data'
 import Conttibute from '../components/pagesCompo/homepage/Conttibute'
+import Events from '../components/pagesCompo/homepage/Events'
+import Education from '../components/pagesCompo/homepage/Education'
 
 const Homepage = () => {
   return (
@@ -15,10 +17,12 @@ const Homepage = () => {
         <NavUnn/>
         <HeroSection/>
         <Aboutus/>
+        <Education/>
         <Vision/>
         <Program/>
         <Data/>
         <Conttibute/>
+        <Events/>
     </div>
   )
 }

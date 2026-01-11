@@ -1,0 +1,58 @@
+import React from 'react'
+import icon from './../../../assets/right-arrow.png'
+
+const Events = () => {
+  return (
+    <section className='flex justify-center items-center py-20 w-screen '>
+        <div className='flex flex-col gap-10 w-3/4 overflow-x-hidden md:overflow-x-scroll scrollbar-hide'>
+            <div>
+                <h1 className='oswald-font-3 text-2xl'>OUR UPCOMING EVENTS</h1>
+            </div>
+            <div className='flex flex-col md:flex-row gap-10'>
+                <div className='w-full md:min-w-1/2 lg:min-w-1/3 border rounded-2xl bg-blue-400 p-5 border-none flex justify-between items-center'>
+                    <div>
+                        <h1 className='text-4xl oswald-font-3 text-white'>18</h1>
+                        <p className='oswald-font-2 mb-4 text-white'>JAN</p>
+                        <h1 className='oswald-font-3'>UNNATI 2ND ANNIVERSARY</h1>
+                    </div>
+                    <div className='bg-white border-0 rounded-full p-2 cursor-pointer'>
+                        <img src={icon} alt="" />
+                    </div>
+                </div>
+                <div className='w-full md:min-w-1/2 lg:min-w-1/3 border rounded-2xl bg-[#FACC15] p-5 border-none flex justify-between items-center'>
+                    <div>
+                        <h1 className='text-4xl oswald-font-3 text-gray-900'>26</h1>
+                        <p className='oswald-font-2 mb-4 text-gray-900'>JAN</p>
+                        <h1 className='oswald-font-3'>MARATHON</h1>
+                    </div>
+                    <div className='bg-white border-0 rounded-full p-2 cursor-pointer'> 
+                        <img src={icon} alt="" />
+                    </div>
+                </div>
+                <div className='w-full md:min-w-1/2 lg:min-w-1/3 border rounded-2xl bg-[#FACC15]  p-5 border-none flex justify-between items-center'>
+                    <div>
+                        <h1 className='text-4xl oswald-font-3 text-[#111111]'>26</h1>
+                        <p className='oswald-font-2 mb-4 text-[#11111]'>JAN</p>
+                        <h1 className='oswald-font-3'>MARATHON</h1>
+                    </div>
+                    <div className='bg-white border-0 rounded-full p-2 cursor-pointer'>
+                        <img src={icon} alt="" />
+                    </div>
+                </div>
+                <div className='w-full md:min-w-1/2 lg:min-w-1/3 border rounded-2xl bg-[#FACC15]  p-5 border-none flex justify-between items-center'>
+                    <div>
+                        <h1 className='text-4xl oswald-font-3 text-white'>26</h1>
+                        <p className='oswald-font-2 mb-4 text-white'>JAN</p>
+                        <h1 className='oswald-font-3'>MARATHON</h1>
+                    </div>
+                    <div className='bg-white border-0 rounded-full p-2 cursor-pointer'>
+                        <img src={icon} alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  )
+}
+
+export default Events
