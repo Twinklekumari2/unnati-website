@@ -4,6 +4,7 @@ import NavUnn from '../components/common/NavUnn'
 import HeroSection from '../components/pagesCompo/aboutus/HeroSection'
 import Aboutus from '../components/pagesCompo/aboutus/Aboutus'
 import Purpose from '../components/pagesCompo/aboutus/Purpose'
+import CollegeCardFaculty from '../components/pagesCompo/aboutus/CollegeCardFaculty'
 
 const AboutUs = () => {
   return (
@@ -13,6 +14,7 @@ const AboutUs = () => {
         <HeroSection/>
         <Aboutus/>
         <Purpose/>
+        <CollegeCardFaculty/>
     </div>
   )
 }

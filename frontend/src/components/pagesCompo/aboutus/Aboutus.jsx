@@ -3,7 +3,7 @@ import vision from "./../../../assets/visionAboutus.jpg";
 
 const Aboutus = () => {
   return (
-    <section className="bg-white text-black py-10 px-10 md:py-40 md:px-10">
+    <section className="bg-white text-black py-10 px-2 md:px-10 md:py-40">
       <div className="flex flex-col md:flex-row justify-center items-center gap-8 ">
         <div className="w-full md:w-1/2 flex flex-col ">
           <div className="w-fit border-4 border-t-black pt-15 border-l-0 border-r-0 border-b-0 ">
