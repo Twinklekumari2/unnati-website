@@ -1,13 +1,39 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Unnati from "./../../assets/Unnati.png";
+import { gsap } from "gsap";
+import './../../styles/navunn.css'
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const NavUnn = () => {
   const [show, setShow] = useState(false);
+  const header2Ref = useRef(null);
+
+  useEffect(() => {
+    const trigger = ScrollTrigger.create({
+      start: () => `top+=${window.innerHeight * 0.1} top`,
+      onUpdate: (self) => {
+        if (self.progress > 0) {
+          header2Ref.current?.classList.add("fixed-header");
+        } else {
+          header2Ref.current?.classList.remove("fixed-header");
+        }
+      },
+    });
+
+    return () => {
+      trigger.kill();
+    };
+  }, []);
 
   return (
-    <nav className="bg-black/90 flex justify-between sm:justify-around items-center p-3 w-full gap-2 sm:gap-10 relative">
+    <header 
+      ref={header2Ref} 
+      className="bg-black/90 flex justify-between sm:justify-around items-center p-3 w-full gap-2 sm:gap-10 transition-colors"
+    >
       <div className="flex items-center ">
-        <div>
+        <div className="img-cont relative w-10 h-10 sm:w-10 sm:h-10 md:w-14 md:h-14 mr-3">
           <img
             src={Unnati}
             alt="Unnati logo"
@@ -50,7 +76,7 @@ const NavUnn = () => {
           <h3 className="bg-blue-400 px-2 py-1 cursor-pointer text-[11px]">JOIN US</h3>
         </div>
       )}
-    </nav>
+    </header>
   );
 };
 

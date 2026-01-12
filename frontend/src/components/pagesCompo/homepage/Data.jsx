@@ -3,7 +3,7 @@ import React from "react";
 const Data = () => {
   return (
     <section className="flex justify-center items-center gap-4 py-20 bg-black text-white">
-      <div className="flex">
+      <div className="flex px-7">
         <div>
           <div className="mb-4">
             <h1 className="oswald-font-3 text-4xl">TRANSPARENCY IN</h1>

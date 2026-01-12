@@ -11,7 +11,7 @@ const HeroSection = () => {
           <h1>DREAMS</h1>
         </div>
         <div>
-          <p className="great-vibes-regular text-blue-400 text-xl tracking-wide">Revolutionizing Present, Transforming Future</p>
+          <p className="text-[18px] great-vibes-regular text-blue-400 sm:text-xl tracking-wide">Revolutionizing Present, Transforming Future</p>
         </div>
         <div className="max-w-xl">
           <p className="border-4 inter-font border-l-blue-400 border-r-0 border-t-0 border-b-0 pl-4">
@@ -21,8 +21,8 @@ const HeroSection = () => {
           </p>
         </div>
         <div className="flex gap-4">
-          <div className="bg-white text-black font-extrabold oswald-font-3 px-5 py-2">READ MORE</div>
-          <div className="oswald-font-3 border font-bold border-white px-5 py-2 flex gap-2"><span className="bg-white rounded-full"><img src={play} alt="" /></span>WATCH VIDEO</div>
+          <div className="text-[12px] flex justify-center items-center sm:text-xl bg-white text-black font-extrabold oswald-font-3 px-5 py-2">READ MORE</div>
+          <div className="text-[12px] flex justify-center items-center oswald-font-3 border font-bold border-white px-5 py-2 gap-2"><span className="bg-white rounded-full"><img src={play} alt="" /></span>WATCH VIDEO</div>
         </div>
       </div>
     </section>

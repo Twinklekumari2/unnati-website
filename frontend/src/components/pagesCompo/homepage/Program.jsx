@@ -11,7 +11,7 @@ const Program = () => {
           </h1>
           <h1 className="oswald-font-3 text-4xl mb-5">STUDENTS CAN THRIVE</h1>
         </div>
-        <div className="flex gap-5">
+        <div className="flex flex-col md:flex-row gap-5">
           <div className="h-72 w-60 border-2 border-amber-300 relative">
             <div>
               <img src="" alt="" />
