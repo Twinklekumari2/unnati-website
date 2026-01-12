@@ -16,6 +16,9 @@
 .fixed-header h1, .fixed-header p, .fixed-header h3 {
    color: black;
 }
+.fixed-header .join-us{
+  color: white;
+}
 .fixed-header img{
   width: 60px;
   height: 65px;
@@ -36,7 +39,7 @@
   }
   .fixed-header{
     padding-top: 4px;
-    padding-bottom: 0px;
+    padding-bottom: 0fpx;
   }
 }
 
