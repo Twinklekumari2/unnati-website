@@ -27,10 +27,10 @@ const CollegeCardFaculty = () => {
         </div>
         <div className="flex flex-col-reverse md:flex-row items-center">
         <div className="flex-1">
-          <h2 className="text-3xl oswald-font-3 text-center">{card.title}</h2>
-          <h3 className="text-lg inter-font mt-1 text-white/85 text-center">{card.name}</h3>
-          <p className="inter-font text-white/85 text-center">{card.position}</p>
-          <p className="mt-3 inter-font text-white/85 text-center">{card.content}</p>
+          <h2 className="text-3xl oswald-font-3 text-center md:text-left">{card.title}</h2>
+          <h3 className="text-lg inter-font mt-1 text-white/85 text-center md:text-left">{card.name}</h3>
+          <p className="inter-font text-white/85 text-center md:text-left">{card.position}</p>
+          <p className="mt-3 inter-font text-white/85 text-center md:text-left">{card.content}</p>
         </div>
         <div className="flex-1 flex justify-center">
           <img
