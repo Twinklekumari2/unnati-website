@@ -61,7 +61,7 @@ const NavUnn = () => {
         <h3 className="px-1 sm:px-3 py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px]" onClick={() => navigate("/")}>HOME</h3>
         <h3 className="px-1 sm:px-3 py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px]" onClick={() => navigate("/about-us")}>ABOUT</h3>
         <h3 className="px-1 sm:px-3 py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px]">MEDIA</h3>
-        <h3 className="px-1 sm:px-3 py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px]">PROGRAMS</h3>
+        <h3 className="px-1 sm:px-3 py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px]" onClick={() => navigate("/what-we-do")}>PROGRAMS</h3>
         <h3 className="bg-blue-400 px-3 join-us py-1 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px] oswald-font-3">JOIN US</h3>
       </div>
 
