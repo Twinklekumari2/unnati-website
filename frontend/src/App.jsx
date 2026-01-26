@@ -8,6 +8,9 @@ import MediaDigiXplore from './pages/MediaDigiXplore'
 import Netritva from './components/pagesCompo/whatwedo/Netritva'
 import MediaNetritva from './pages/MediaNetritva'
 import MediaAkshar from './pages/MediaAkshar'
+import MediaEvent1 from './components/pagesCompo/akshar/MediaEvent1'
+import MediaEvent3 from './components/pagesCompo/akshar/MediaEvent3'
+import MediaEvent2 from './components/pagesCompo/akshar/MediaEvent2'
 
 const App = () => {
   return (
@@ -20,6 +23,9 @@ const App = () => {
          <Route path="/media/digiXplore" element={<MediaDigiXplore/>}/>
          <Route path="/media/netritva" element={<MediaNetritva/>}/>
          <Route path="/media/akshar" element={<MediaAkshar/>}/>
+         <Route path="/media/akshar/event-1" element={<MediaEvent1/>}/>
+         <Route path="/media/akshar/event-2" element={<MediaEvent2/>}/>
+         <Route path="/media/akshar/event-3" element={<MediaEvent3/>}/>
       </Routes>
     </div>
   )
