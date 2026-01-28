@@ -4,17 +4,18 @@ import NavUnn from "./../../common/NavUnn";
 import { cloudinaryImage } from "./../../../utils/cloudinary";
 
 const images = [
-  "rangchakra-1_au72g1",
-  "rangchakra-2_dro0fv",
-  "rangchakra-3_pvu0gu",
-  "rangchakra-4_is2rb7",
-  "rangchakra-5_hoam3n",
-  "rangchakra-6_ej2vyw",
-  "rangchakra-7_ght3xf",
-  "rangchakra-8_viv2gd",
-  "rangchakra-9_fu6vyk",
-  "rangchakra-10_n1ygta",
-  "rangchakra-11_w65zhz"
+  "children_sDay-9_bx5hmt",
+  "children_sDay-10_uo3otk",
+  "children_sDay-1_cansoz",
+  "children_sDay-6_hgtulf",
+  "childrens_sDay-8_sbz9bk",
+  "childrens_Day-2_bfhjlf",
+  "children_sDay-4_feuavu",
+  "childrens_Day-3_stfkkt",
+  "childrens_Day-7_exuhi6",
+  "children_sDay-5_ozjcti",
+
+
 ];
 
 const MediaEvent2 = () => {

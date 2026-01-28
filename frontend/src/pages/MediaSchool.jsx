@@ -1,18 +1,16 @@
 import React from 'react'
 import Navbar from '../components/common/Navbar'
 import NavUnn from '../components/common/NavUnn'
-import HeroSection from '../components/pagesCompo/media/HeroSection'
-import SchoolVisit from './../components/pagesCompo/media/SchoolVisit'
+import HeroSection from '../components/pagesCompo/school/HeroSection'
 
-const Media = () => {
+const MediaSchool = () => {
   return (
     <div>
         <Navbar/>
         <NavUnn/>
         <HeroSection/>
-        <SchoolVisit/>
     </div>
   )
 }
 
-export default Media
+export default MediaSchool
