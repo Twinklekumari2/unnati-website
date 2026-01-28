@@ -9,6 +9,7 @@ import Data from '../components/pagesCompo/homepage/Data'
 import Conttibute from '../components/pagesCompo/homepage/Conttibute'
 import Events from '../components/pagesCompo/homepage/Events'
 import Education from '../components/pagesCompo/homepage/Education'
+import Footer from '../components/common/Footer'
 
 const Homepage = () => {
   return (
@@ -23,6 +24,7 @@ const Homepage = () => {
         <Data/>
         <Conttibute/>
         <Events/>
+        <Footer/>
     </div>
   )
 }
