@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/common/Navbar'
 import NavUnn from '../components/common/NavUnn'
 import HeroSection from '../components/pagesCompo/school/HeroSection'
+import Footer from '../components/common/Footer'
 
 const MediaSchool = () => {
   return (
@@ -9,6 +10,7 @@ const MediaSchool = () => {
         <Navbar/>
         <NavUnn/>
         <HeroSection/>
+        <Footer/>
     </div>
   )
 }

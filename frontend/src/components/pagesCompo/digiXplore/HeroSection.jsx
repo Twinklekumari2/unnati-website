@@ -17,14 +17,14 @@ const HeroSection = () => {
             </div>
         </div>
         <div className='mr-10 mt-10 flex flex-col gap-5'>
-            <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer'>
-                EVENT-1
+            <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer text-center'>
+                WORKSHOP <br /> 1
             </div>
-            <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer'>
-                EVENT-2
+            <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer text-center'>
+                WORKSHOP <br /> 2
             </div>
-            <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer'>
-                EVENT-3
+            <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer text-center'>
+                WORKSHOP <br /> 3
             </div>
         </div>
        </div>

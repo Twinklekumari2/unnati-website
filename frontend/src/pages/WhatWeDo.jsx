@@ -6,6 +6,7 @@ import DigiXplore from '../components/pagesCompo/whatwedo/DigiXplore'
 import Netritva from '../components/pagesCompo/whatwedo/Netritva'
 import Akshar from '../components/pagesCompo/whatwedo/Akshar'
 import School from '../components/pagesCompo/whatwedo/School'
+import Footer from '../components/common/Footer'
 
 const WhatWeDo = () => {
   return (
@@ -17,6 +18,7 @@ const WhatWeDo = () => {
         <Netritva/>
         <Akshar/>
         <School/>
+        <Footer/>
     </div>
   )
 }
