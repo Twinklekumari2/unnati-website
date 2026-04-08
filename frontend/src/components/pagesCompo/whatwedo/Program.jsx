@@ -24,11 +24,13 @@ const Program = () => {
         <div className="flex gap-3 items-center justify-center">
             <div className="flex flex-col">
                 <div className="h-1/2 w-full p-10"></div>
-                <div className="border-0 rounded-full p-10 bg-blue-400 aspect-square flex justify-center items-center oswald-font-3">Netritva</div>
+                <div className="border-0 rounded-full p-10 bg-blue-400 aspect-square flex justify-center items-center oswald-font-3" 
+                
+                onClick={() => navigate("/programs/netritva")}>Netritva</div>
             </div>
             <div className="h-full border-0 rounded-full p-15 bg-white text-black aspect-square flex justify-center items-center oswald-font-3 text-2xl cursor-pointer" onClick={() =>navigate("/programs/digiXplore")}>DigiXplore</div>
             <div>
-                <div className="border-0 rounded-full p-10 bg-blue-400 aspect-square flex justify-center items-center oswald-font-3">Akshar</div>
+                <div className="border-0 rounded-full p-10 bg-blue-400 aspect-square flex justify-center items-center oswald-font-3" onClick={() => navigate("/programs/akshar")}>Akshar</div>
                 <div className="h-1/2 p-10"></div>
             </div>
         </div>

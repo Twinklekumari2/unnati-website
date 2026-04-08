@@ -41,11 +41,11 @@ const NavUnn = () => {
     >
       <div className="flex items-center ">
         <div className="img-cont relative w-10 h-10 sm:w-10 sm:h-10 md:w-14 md:h-14 mr-3">
-          <img
-            src={Unnati}
-            alt="Unnati logo"
-            className="w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 mr-3"
-          />
+          {/* <img */}
+            {/* src={Unnati} */}
+            {/* alt="Unnati logo" */}
+            {/* className="w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 mr-3" */}
+          {/* /> */}
         </div>
         <div className="text-white flex flex-col justify-center">
           <h1 className="tracking-widest font-extrabold text-[11px] sm:text-[12px] md:text-[15px] md:text-sm oswald-font xl:text-[18px]">

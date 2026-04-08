@@ -8,13 +8,13 @@ const Hero = () => {
       <div className="w-3/4 flex justify-between items-center">
         <div className="flex flex-col gap-6 w-1/2">
           <div>
-            <h1 className="oswald-font-3 text-5xl">DIGIXPLORE</h1>
+            <h1 className="oswald-font-3 text-5xl">NETRITVA</h1>
           </div>
           <div className="w-20 h-0.5 bg-blue-400"></div>
           <div>
             <p className="text-gray-100 inter-font-2">
-              "Empowering young minds with the skills of tomorrow." DigiXplore
-              is designed to empower students with essential digital literacy
+              "Empowering young minds with the skills of tomorrow." Akshar
+              is designed to empower students with essential literacy
               skills through engaging workshops.
             </p>
           </div>
@@ -26,10 +26,10 @@ const Hero = () => {
                 <div className="border-0 rounded-full p-10 bg-blue-400 aspect-square flex justify-center items-center oswald-font-3">Netritva</div>
             </div>
             <div className="h-full border-0 rounded-full p-15 text-black aspect-square flex justify-center items-center oswald-font-3 text-2xl cursor-pointer bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(${cloudinaryImage("mission2_pdc0bn")})`}}>
-                <h3 className="bg-white/40">DigiXplore</h3>
+                <h3 className="bg-white/40">Akshar</h3>
             </div>
             <div>
-                <div className="border-0 rounded-full p-10 bg-blue-400 aspect-square flex justify-center items-center oswald-font-3">Akshar</div>
+                <div className="border-0 rounded-full p-10 bg-blue-400 aspect-square flex justify-center items-center oswald-font-3">DigiXplore</div>
                 <div className="h-1/2 p-10"></div>
             </div>
         </div>
