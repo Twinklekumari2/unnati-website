@@ -91,7 +91,7 @@ const ExecutiveBody = () => {
           {/* JS - PR */}
           <div className="flex flex-col justify-center items-center gap-4 border rounded-2xl p-4 shadow-lg">
             <img
-              src={cloudinaryImage("dheeraj_cuclko")}
+              src={cloudinaryImage("jayanshu_gdrakx")}
               alt="president"
               className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full"
             />
@@ -106,7 +106,7 @@ const ExecutiveBody = () => {
                 <a href="mailto:jayanshu.240101181@iitbh.ac.in">
                   <MdEmail className="cursor-pointer hover:text-blue-600" />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/jayanshu-bhardwaj-05a791322/" target="_blank">
                   <FaLinkedin className="cursor-pointer hover:text-blue-600" />
                 </a>
               </div>
@@ -116,7 +116,7 @@ const ExecutiveBody = () => {
           {/* JS - TECH */}
           <div className="flex flex-col justify-center items-center gap-4 border rounded-2xl p-4 shadow-lg">
             <img
-              src={cloudinaryImage("dheeraj_cuclko")}
+              src={cloudinaryImage("twinkle_akhjbq")}
               alt="president"
               className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full"
             />

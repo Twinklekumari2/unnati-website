@@ -4,7 +4,7 @@ import { cloudinaryImage } from "../../../utils/cloudinary";
 const DigiXplore = () => {
   return (
     <section className="bg-white text-black w-screen flex justify-center items-center py-30 px-10">
-      <div className="w-3/4 flex justify-between items-center">
+      <div className="w-3/4 flex flex-col md:flex-row justify-between items-center gap-4 ">
         <div className="flex flex-col gap-3">
           <div className="w-15 h-1 bg-gray-400 mb-4"></div>
           <div className="text-5xl">
@@ -13,18 +13,18 @@ const DigiXplore = () => {
           </div>
           <div className="mt-4 flex justify-between">
             <div className="flex flex-col w-1/2 gap-3">
-              <div className="text-blue-400 text-5xl inter-font-3">200+</div>
+              <div className="text-blue-400 text-3xl sm:text-4xl md:text-5xl inter-font-3">200+</div>
               <div className="inter-font-3 text-wrap">
                 CHILDREN RECEIVED QUALITY EDUCATION
               </div>
             </div>
             <div className="flex flex-col gap-3 ">
-              <div className="text-blue-400 text-5xl inter-font-3">12+</div>
+              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">12+</div>
               <div className="inter-font-3 text-wrap">SCHOOLS OPENED</div>
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-3 rotate-45 w-64 aspect-square">
+        <div className="w-3/4 grid grid-cols-2 gap-3 rotate-45 md:w-64 aspect-square">
           <div className="overflow-hidden shadow-lg">
             <img
               src={cloudinaryImage(

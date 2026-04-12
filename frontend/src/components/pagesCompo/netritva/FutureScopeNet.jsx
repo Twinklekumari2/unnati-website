@@ -14,7 +14,7 @@ const FutureScopeNet = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">NETRITVA</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify ms:text-left">
               The program plans to create a structured mentorship network, connect students with industry professionals and alumni, and offer scholarship and internship guidance. Netritva envisions becoming a comprehensive career support ecosystem for rural and first-generation learners.
             </p>
           </div>

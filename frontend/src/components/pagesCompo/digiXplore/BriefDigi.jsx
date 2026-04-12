@@ -14,7 +14,7 @@ const BriefDigi = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">DIGIXPLORE</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify md:text-left">
               DigiXplore is Unnati Society’s digital education initiative aimed at introducing underprivileged school students to the world of technology. Through weekly interactive sessions students learn computer fundamentals, digital literacy, and responsible use of technology, enabling them to bridge the digital divide.
             </p>
           </div>

@@ -16,7 +16,7 @@ const ImpactAkshar = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">DIGIXPLORE</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify md:text-right">
              Akshar has brought education to children who were previously out of the formal schooling system, helping them learn to read, write, and communicate with confidence. The program has ignited a love for learning and created hope among families for a better future for their children.
 
             </p>

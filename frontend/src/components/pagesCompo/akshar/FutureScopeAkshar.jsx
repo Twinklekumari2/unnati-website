@@ -14,7 +14,7 @@ const FutureScopeAkshar = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">AKSHAR</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify md:text-left">
               Unnati aims to expand Akshar centers in more rural areas, integrate bridge courses to mainstream students into formal schools, and introduce digital and life-skills education. The long-term goal is to ensure that no child is left behind due to financial or social barriers.
             </p>
           </div>

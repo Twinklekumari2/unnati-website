@@ -17,12 +17,12 @@ const Purpose = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">OUR MISSION</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify">
               Our mission is to represent the spirit of social responsibility and outreach commitment of IIIT Bhagalpur by engaging students in meaningful community service that creates lasting social impact. We strive to strengthen the institute’s connection with local communities through impactful educational and developmental initiatives, nurturing leadership, empathy, and civic responsibility among students.
             </p>
           </div>
           <div>
-            <p className="inter-font">
+            <p className="inter-font text-justify">
               Through sustainable programs such as digital literacy workshops, career guidance sessions, and foundational learning drives, Unnati aims to contribute to the educational and social growth of underprivileged communities. By building a collaborative platform that brings together the institute, students, and society, we envision inclusive growth and mutual development that truly reflects the values of education, service, and compassion.
             </p>
           </div>

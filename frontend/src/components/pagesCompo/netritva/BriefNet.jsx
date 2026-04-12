@@ -14,7 +14,7 @@ const BriefNet = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">NETRITVA</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify md:text-left">
               Netritva is Unnati’s career guidance and mentorship program designed to help underprivileged students discover their potential and make informed career choices. It provides exposure to diverse career paths, skill development sessions, and one-to-one mentoring to nurture leadership and self-belief.
 
             </p>

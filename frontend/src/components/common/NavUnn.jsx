@@ -83,6 +83,7 @@ const NavUnn = () => {
           <h3 className="cursor-pointer text-[11px]" onClick={() => navigate("/about-us")}>ABOUT</h3>
           <h3 className="cursor-pointer text-[11px]" onClick={() => navigate("/media")}>MEDIA</h3>
           <h3 className="cursor-pointer text-[11px]" onClick={() => navigate("/programs")}>PROGRAMS</h3>
+          <h3 className="cursor-pointer text-[11px]" onClick={() => navigate("/executive-body")}>PEOPLE</h3>
           <h3 className="bg-blue-400 px-2 py-1 cursor-pointer text-[11px] text-white text-center rounded">JOIN US</h3>
         </div>
       )}

@@ -14,7 +14,7 @@ const FutureScopeDigi = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">DIGIXPLORE</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify md:text-left">
               DigiXplore aims to expand to more rural and government schools, introduce advanced modules such as coding and AI awareness. The vision is to create a generation of digitally confident students ready for future academic and professional challenges.
 
             </p>

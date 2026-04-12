@@ -14,7 +14,7 @@ const BriefAkshar = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">AKSHAR</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify md:text-left">
               Akshar is Unnati Society’s foundational education initiative for underprivileged children who cannot afford to attend school. It focuses on providing basic literacy, numeracy, and English communication skills in a supportive community learning environment.
             </p>
           </div>

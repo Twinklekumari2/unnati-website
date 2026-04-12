@@ -7,10 +7,10 @@ const Conttibute = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="relative z-10 flex flex-col justify-center items-center text-white">
         <div className="flex flex-col justify-center items-center p-4">
-          <h1 className="oswald-font-3 text-2xl">
+          <h1 className="oswald-font-3 text-xl sm:text-3xl md:text-4xl text-center mb-4">
             YOU CAN CONTRIBUTE TO PROVIDE A PLACE
           </h1>
-          <h1 className="oswald-font-3 text-2xl">FOR CHILDREN TO LEARN!</h1>
+          <h1 className="oswald-font-2 text-xl sm:text-3xl md:text-4xl">FOR CHILDREN TO LEARN!</h1>
         </div>
         <div className="flex gap-6">
           <div className="oswald-font-3 px-5 p-2 bg-amber-400 text-black cursor-pointer">JOIN AS VOLUNTEER</div>

@@ -17,7 +17,7 @@ const WhatWeDo = () => {
         <DigiXplore/>
         <Netritva/>
         <Akshar/>
-        <School/>
+        {/* <School/> */}
         <Footer/>
     </div>
   )

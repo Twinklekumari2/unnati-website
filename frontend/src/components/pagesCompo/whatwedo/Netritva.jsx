@@ -4,10 +4,10 @@ import { cloudinaryImage } from "../../../utils/cloudinary";
 const Netritva = () => {
   return (
     <section className="bg-white text-black w-screen flex justify-center items-center py-30 px-10">
-      <div className="w-3/4 flex justify-between items-center">
+      <div className="w-full md:w-3/4 flex flex-col-reverse gap-5 md:flex-row justify-between items-center">
 
         {/* Image Cluster */}
-        <div className="flex gap-6 items-center justify-center">
+        <div className="w-3/4 flex gap-6 items-center justify-center">
 
           {/* Left */}
           <div className="flex flex-col items-center">
@@ -57,14 +57,14 @@ const Netritva = () => {
 
           <div className="mt-4 flex justify-between">
             <div className="flex flex-col w-1/2 gap-3">
-              <div className="text-blue-400 text-5xl inter-font-3">200+</div>
+              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">200+</div>
               <div className="inter-font-3">
                 CHILDREN RECEIVED GUIDANCE
               </div>
             </div>
 
             <div className="flex flex-col gap-3">
-              <div className="text-blue-400 text-5xl inter-font-3">12+</div>
+              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">12+</div>
               <div className="inter-font-3">
                 SCHOOLS REACHED
               </div>

@@ -16,7 +16,7 @@ const ImpactDigi = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">DIGIXPLORE</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify md:text-right">
               The program has empowered hundreds of students in government schools to gain basic computer skills, improved their confidence in using digital tools, and enhanced classroom engagement. Regular evaluations and activity-based learning have helped students develop problem-solving abilities and curiosity towards modern education.
 
             </p>

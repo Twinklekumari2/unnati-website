@@ -16,7 +16,7 @@ const ImpactNet = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">NETRITVA</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify md:text-right">
               Through workshops, counseling sessions, and interaction with mentors, students have gained clarity about career opportunities, competitive exams, and higher education pathways. Netritva has helped many students overcome confusion, build ambition, and develop a goal-oriented mindset.
 
             </p>

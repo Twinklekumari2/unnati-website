@@ -3,11 +3,11 @@ import React from "react";
 const Data = () => {
   return (
     <section className="flex justify-center items-center gap-4 py-20 bg-black text-white">
-      <div className="flex px-7">
-        <div>
+      <div className="flex flex-col-reverse sm:flex-row px-7 gap-5">
+        <div className="mb-6">
           <div className="mb-4">
-            <h1 className="oswald-font-3 text-4xl">TRANSPARENCY IN</h1>
-            <h1 className="oswald-font-3 text-4xl">OUR ACTIONS</h1>
+            <h1 className="oswald-font-3 text-2xl sm:text-3xl md:text-4xl">TRANSPARENCY IN</h1>
+            <h1 className="oswald-font-3 text-2xl sm:text-3xl md:text-4xl">OUR ACTIONS</h1>
           </div>
           <p className="inter-font text-gray-400 mb-4 w-full md:w-3/4">
             We ensure every penny donated goes directly to empowering the

@@ -14,12 +14,12 @@ const Aboutus = () => {
             <h1 className="oswald-font text-blue-400 text-4xl">UNNATI SOCIETY</h1>
           </div>
           <div>
-            <p className="inter-font my-3">
+            <p className="inter-font my-3 text-justify">
               Our vision is to establish IIIT Bhagalpur as a leading institution in community-oriented education and social innovation, where knowledge and technology serve as catalysts for social transformation. We aim to build a sustainable bridge between academia and society, ensuring that the benefits of learning, research, and innovation reach every section of the community.
             </p>
           </div>
           <div>
-            <p className="inter-font">
+            <p className="inter-font text-justify">
               Through student-led initiatives like Unnati, we aspire to create a model of institutional outreach excellence that reflects the institute’s unwavering commitment to nation-building and equitable education. By empowering students to engage with real-world challenges, we envision an ecosystem where education inspires responsibility, innovation drives inclusion, and every effort contributes to a stronger, more compassionate society.
             </p>
           </div>

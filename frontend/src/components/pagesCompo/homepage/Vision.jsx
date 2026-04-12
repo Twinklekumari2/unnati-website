@@ -7,13 +7,13 @@ const Vision = () => {
       <div className="flex flex-col md:flex-row justify-center items-center ">
         <div className="w-full md:w-1/2 flex flex-col gap-4">
           <div>
-            <p className="w-fit inter-font text-gray-900 border-4 border-t-black pt-15 border-b-0 border-l-0 border-r-0">
+            <p className="w-fit inter-font text-gray-900 border-4 border-t-black pt-15 border-b-0 border-l-0 border-r-0 ">
               OUR VISION
             </p>
           </div>
           <div>
-            <h1 className="oswald-font text-4xl">EQUITABLE OPPORTUNITIES</h1>
-            <h1 className="oswald-font text-4xl">TO THRIVE</h1>
+            <h1 className="oswald-font text-2xl sm:text-3xl md:text-4xl">EQUITABLE OPPORTUNITIES</h1>
+            <h1 className="oswald-font text-2xl sm:text-3xl md:text-4xl">TO THRIVE</h1>
           </div>
           <div>
             <div>
