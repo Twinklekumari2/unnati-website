@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section className="bg-black text-white flex justify-start pt-10 pb-10 xl:pb-52 px-10 xl:px-62 sm:py-30 sm:pb-51 items-center min-h-[50vh]">
       <div className="flex flex-col justify-start gap-4">
-        <div className="oswald-font text-5xl tracking-wide">
+        <div className="oswald-font text-xl sm:text-2xl md:text-5xl tracking-wide">
           <h1>EMPOWERING</h1>
           <h1>DREAMS</h1>
         </div>
@@ -16,7 +16,7 @@ const HeroSection = () => {
           <p className="text-[18px] great-vibes-regular text-blue-400 sm:text-xl tracking-wide">Revolutionizing Present, Transforming Future</p>
         </div>
         <div className="max-w-xl">
-          <p className="border-4 inter-font border-l-blue-400 border-r-0 border-t-0 border-b-0 pl-4">
+          <p className="border-4 inter-font border-l-blue-400 border-r-0 border-t-0 border-b-0 pl-4 text-sm md:text-xl">
             We bridge the digital divide by providing underprivileged students
             with essential technology education and basic knowledge, equipping
             them for the digital age.
