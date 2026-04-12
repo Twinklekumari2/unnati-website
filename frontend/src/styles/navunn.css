@@ -1,46 +1,48 @@
-
 .fixed-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 50;
-  /* Optional: add an animation so it doesn't snap instantly */
   animation: slideDown 0.3s ease-out;
   padding-bottom: 4px;
   background: white;
-  /* color: black; */
-  /* background: transparent; */
-  border-bottom: 3px solid black;
 }
-.fixed-header h1, .fixed-header p, .fixed-header h3 {
-   color: black;
+
+.fixed-header h1, 
+.fixed-header p, 
+.fixed-header h3 {
+  color: black;
 }
+
 .fixed-header .join-us{
   color: white;
 }
+
+/* ✅ FIXED: removed width/height conflict */
 .fixed-header img{
-  width: 70px;
-  height: 65px;
   position: absolute;
-  top: 30%;
-  left: 12%;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
   display: block;
-  border-bottom: 4px solid rgb(62, 48, 48);
   border-radius: 50%;
 }
+
+/* optional spacing */
 .fixed-header .img-cont{
   padding: 5px;
 }
 
+/* Responsive */
 @media only screen and (max-width: 768px){
   .fixed-header img{
-     width: 40px;
-     height: 45px;
+    left: 3%;
   }
+
   .fixed-header{
     padding-top: 4px;
-    padding-bottom: 0fpx;
+    padding-bottom: 0px; /* fixed typo */
   }
 }
 
