@@ -1,7 +1,9 @@
 import React from "react";
 import vision from "./../../../assets/vision2.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Aboutus = () => {
+  const navigate = useNavigate();
   return (
     <section className="bg-white text-black py-10 px-10 md:py-40 md:px-10">
       <div className="flex flex-col md:flex-row justify-center items-center ">
@@ -27,10 +29,10 @@ const Aboutus = () => {
             </p>
           </div>
           <div>
-            <div className="flex justify-center items-center w-1/2 sm:w-1/3 xl:w-1/5 oswald-font-3 bg-yellow-400 px-4 py-2">LEARN MORE</div>
+            <div className="flex justify-center items-center w-1/2 sm:w-1/3 xl:w-1/5 oswald-font-3 bg-yellow-400 px-4 py-2 cursor-pointer" onClick={() => navigate('/about-us')}>LEARN MORE</div>
           </div>
         </div>
-        <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 h-1/2 mt-4 ">
+        <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 h-1/2 mt-4">
           <img src={vision} alt="vision" className="object-cover h-96 border-none rounded-4xl "/>
         </div>
       </div>

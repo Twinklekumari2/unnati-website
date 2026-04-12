@@ -37,15 +37,15 @@ const NavUnn = () => {
   return (
     <header 
       ref={header2Ref} 
-      className="bg-black/90 flex justify-between sm:justify-around items-center p-3 w-full gap-2 sm:gap-10 transition-colors"
+      className="bg-black/90 flex justify-between sm:justify-around items-center p-1 w-full gap-2 sm:gap-10 transition-colors"
     >
       <div className="flex items-center ">
         <div className="img-cont relative w-10 h-10 sm:w-10 sm:h-10 md:w-14 md:h-14 mr-3">
-          {/* <img */}
-            {/* src={Unnati} */}
-            {/* alt="Unnati logo" */}
-            {/* className="w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 mr-3" */}
-          {/* /> */}
+          <img
+            src={Unnati} 
+            alt="Unnati logo"
+            className="w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 mr-3 hidden"
+           />
         </div>
         <div className="text-white flex flex-col justify-center">
           <h1 className="tracking-widest font-extrabold text-[11px] sm:text-[12px] md:text-[15px] md:text-sm oswald-font xl:text-[18px]">

@@ -1,7 +1,9 @@
 import React from "react";
 import { cloudinaryImage } from "../../../utils/cloudinary";
+import { useNavigate } from "react-router-dom";
 
 const Program = () => {
+  const navigate = useNavigate();
   return (
     <section className="flex justify-center items-center w-screen py-30 px-10">
       <div className="flex flex-col gap-4 w-3/4">
@@ -22,11 +24,10 @@ const Program = () => {
               className="h-full w-full object-cover"
             />
 
-            <div className="absolute bottom-3 left-1/5 text-white flex justify-center items-center flex-col">
-              <h1 className="oswald-font-3 bg-amber-100 text-black px-4 py-1">
+            <div className="absolute bottom-0 w-full backdrop-opacity-35 text-white flex justify-center items-center flex-col cursor-pointer" onClick={() => navigate('/programs/digiXplore')}>
+              <h1 className="oswald-font-3 w-full text-center opacity-100 bg-blue-500 text-white px-4 py-1" >
                 DigiXplore
               </h1>
-              <div className="inter-font-2 px-4 py-1">EXPLORE</div>
             </div>
           </div>
           <div className="h-72 w-60 relative overflow-hidden">
@@ -38,9 +39,8 @@ const Program = () => {
               className="h-full w-full object-cover"
             />
 
-            <div className="absolute bottom-3 left-1/5 flex justify-center items-center flex-col text-white">
-              <h1 className="oswald-font-3 bg-amber-100 text-black px-4 py-1">Netritva</h1>
-              <div className="inter-font-2 px-4 py-1">EXPLORE</div>
+            <div className="absolute bottom-0 w-full flex justify-center items-center flex-col text-white cursor-pointer" onClick={() => navigate('/programs/netritva')}>
+              <h1 className="oswald-font-3 w-full text-center bg-blue-500 text-white px-4 py-1">Netritva</h1>
             </div>
           </div>
           <div className="h-72 w-60 relative overflow-hidden">
@@ -52,11 +52,10 @@ const Program = () => {
               className="h-full w-full object-cover"
             />
 
-            <div className="absolute bottom-3 left-1/5 text-white flex justify-center items-center flex-col">
-              <h1 className="oswald-font-3 bg-amber-100 text-black px-4 py-1">
+            <div className="absolute bottom-0 w-full flex justify-center items-center flex-col text-white" onClick={() => navigate('/programs/akshar')}>
+              <h1 className="oswald-font-3 w-full text-center bg-blue-500 text-white px-4 py-1 cursor-pointer">
                 Akshar
               </h1>
-              <div className="inter-font-2 px-4 py-1">EXPLORE</div>
             </div>
           </div>
         </div>

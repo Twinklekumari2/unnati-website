@@ -11,9 +11,9 @@ const Events = () => {
             <div className='flex flex-col md:flex-row gap-10'>
                 <div className='w-full md:min-w-1/2 lg:min-w-1/3 border rounded-2xl bg-blue-400 p-5 border-none flex justify-between items-center'>
                     <div>
-                        <h1 className='text-4xl oswald-font-3 text-white'>18</h1>
-                        <p className='oswald-font-2 mb-4 text-white'>JAN</p>
-                        <h1 className='oswald-font-3'>UNNATI 2ND ANNIVERSARY</h1>
+                        <h1 className='text-4xl oswald-font-3 text-white'>5</h1>
+                        <p className='oswald-font-2 mb-4 text-white'>AUG</p>
+                        <h1 className='oswald-font-3'>UNNATI PRASASTHI SAMAROH</h1>
                     </div>
                     <div className='bg-white border-0 rounded-full p-2 cursor-pointer'>
                         <img src={icon} alt="" />
@@ -21,31 +21,11 @@ const Events = () => {
                 </div>
                 <div className='w-full md:min-w-1/2 lg:min-w-1/3 border rounded-2xl bg-[#FACC15] p-5 border-none flex justify-between items-center'>
                     <div>
-                        <h1 className='text-4xl oswald-font-3 text-gray-900'>26</h1>
-                        <p className='oswald-font-2 mb-4 text-gray-900'>JAN</p>
-                        <h1 className='oswald-font-3'>MARATHON</h1>
+                        <h1 className='text-4xl oswald-font-3 text-[#111111]'>14</h1>
+                        <p className='oswald-font-2 mb-4 text-[#111111]'>NOV</p>
+                        <h1 className='oswald-font-3'>CHILDREN'S DAY</h1>
                     </div>
                     <div className='bg-white border-0 rounded-full p-2 cursor-pointer'> 
-                        <img src={icon} alt="" />
-                    </div>
-                </div>
-                <div className='w-full md:min-w-1/2 lg:min-w-1/3 border rounded-2xl bg-[#FACC15]  p-5 border-none flex justify-between items-center'>
-                    <div>
-                        <h1 className='text-4xl oswald-font-3 text-[#111111]'>26</h1>
-                        <p className='oswald-font-2 mb-4 text-[#11111]'>JAN</p>
-                        <h1 className='oswald-font-3'>MARATHON</h1>
-                    </div>
-                    <div className='bg-white border-0 rounded-full p-2 cursor-pointer'>
-                        <img src={icon} alt="" />
-                    </div>
-                </div>
-                <div className='w-full md:min-w-1/2 lg:min-w-1/3 border rounded-2xl bg-[#FACC15]  p-5 border-none flex justify-between items-center'>
-                    <div>
-                        <h1 className='text-4xl oswald-font-3 text-white'>26</h1>
-                        <p className='oswald-font-2 mb-4 text-white'>JAN</p>
-                        <h1 className='oswald-font-3'>MARATHON</h1>
-                    </div>
-                    <div className='bg-white border-0 rounded-full p-2 cursor-pointer'>
                         <img src={icon} alt="" />
                     </div>
                 </div>

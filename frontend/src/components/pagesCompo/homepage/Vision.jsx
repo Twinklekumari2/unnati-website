@@ -25,7 +25,7 @@ const Vision = () => {
                 </p>
               </div>
             </div>
-            <div>
+            <div >
               <div></div>
               <div>
                 <h2 className="oswald-font-3">CONSTANT DEVELOPMENT</h2>

@@ -25,6 +25,7 @@
   position: absolute;
   top: 30%;
   left: 12%;
+  display: block;
   border-bottom: 4px solid rgb(62, 48, 48);
   border-radius: 50%;
 }

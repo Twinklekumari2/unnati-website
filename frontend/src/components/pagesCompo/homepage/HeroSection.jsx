@@ -1,8 +1,10 @@
 import React from "react";
 import play from './../../../assets/play.png'
 import herosection from './../../../assets/herosection.jpeg'
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="bg-black text-white flex justify-start pt-10 pb-10 xl:pb-52 px-10 xl:px-62 sm:py-30 sm:pb-51 items-center min-h-[50vh]">
       <div className="flex flex-col justify-start gap-4">
@@ -21,8 +23,8 @@ const HeroSection = () => {
           </p>
         </div>
         <div className="flex gap-4">
-          <div className="text-[12px] flex justify-center items-center sm:text-xl bg-white text-black font-extrabold oswald-font-3 px-5 py-2">READ MORE</div>
-          <div className="text-[12px] flex justify-center items-center oswald-font-3 border font-bold border-white px-5 py-2 gap-2"><span className="bg-white rounded-full"><img src={play} alt="" /></span>WATCH VIDEO</div>
+          <div className="text-[12px] flex justify-center items-center sm:text-xl bg-white text-black font-extrabold oswald-font-3 px-5 py-2 cursor-pointer" onClick={() => navigate('/about-us')}>READ MORE</div>
+          <div className="text-[12px] flex justify-center items-center oswald-font-3 border font-bold border-white px-5 py-2 gap-2 cursor-pointer"><span className="bg-white rounded-full"><img src={play} alt="" /></span>WATCH VIDEO</div>
         </div>
       </div>
     </section>

@@ -79,19 +79,19 @@ const Footer = () => {
             <ul className="flex flex-col gap-2 text-sm text-white/60">
               <li
                 className="hover:text-white cursor-pointer"
-                onClick={() => navigate("/")}
+                onClick={() => navigate("/programs/digiXplore")}
               >
                 DigiXplore
               </li>
               <li
                 className="hover:text-white cursor-pointer"
-                onClick={() => navigate("/")}
+                onClick={() => navigate("/programs/netritva")}
               >
                 Netritva
               </li>
               <li
                 className="hover:text-white cursor-pointer"
-                onClick={() => navigate("/")}
+                onClick={() => navigate("/programs/akshar")}
               >
                 Akshar
               </li>
