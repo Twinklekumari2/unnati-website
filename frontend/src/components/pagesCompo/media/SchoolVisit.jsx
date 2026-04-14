@@ -16,7 +16,6 @@ const HeroSection = () => {
             <div className="cursor-pointer w-40 h-40 aspect-square absolute left-0 top-0 bg-[#0F1E3C] flex justify-center items-center rotate-45 z-20 rounded-2xl border border-black"><span className="-rotate-45"
             onClick={() => navigate("/media/outreach/school-visit")}
             >
-                {/* <img src={digiXplore} alt="" /> */}
                 <h1 className="oswald-font flex justify-center items-center text-xl">OUTREACH - <br /> SCHOOL VISIT</h1>
               </span></div>
             <div className="rounded-2xl bg-white/30 w-40 h-40 aspect-square border border-black rotate-45 absolute right-0 z-0"></div>

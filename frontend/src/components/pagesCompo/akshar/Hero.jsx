@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="flex flex-col gap-6 w-full md:w-1/2">
           <div>
             <h1 className="oswald-font-3 text-2xl sm:text-3xl md:text-5xl">
-              NETRITVA
+              AKSHAR
             </h1>
           </div>
 

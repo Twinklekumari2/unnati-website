@@ -19,6 +19,7 @@ import Executivebody from './pages/Executivebody'
 import DigiXplore from './pages/DigiXplore'
 import Akshar from './pages/Akshar'
 import Netritva from './pages/Netritva'
+import Resources from './pages/Resources'
 
 const App = () => {
   return (
@@ -48,6 +49,8 @@ const App = () => {
          <Route path="/media/outreach/school-visit/uchh-vidyalaya" element={<RajUchh/>}/>
 
          <Route path="/executive-body" element={<Executivebody/>}/>
+
+         <Route path='/resources' element={<Resources/>}/>
       </Routes>
     </div>
   )
