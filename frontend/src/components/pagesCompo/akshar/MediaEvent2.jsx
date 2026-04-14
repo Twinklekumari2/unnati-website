@@ -14,8 +14,6 @@ const images = [
   "childrens_Day-3_stfkkt",
   "childrens_Day-7_exuhi6",
   "children_sDay-5_ozjcti",
-
-
 ];
 
 const MediaEvent2 = () => {
