@@ -6,9 +6,9 @@ const HeroSection = () => {
   return (
     <section className="relative bg-cover bg-center bg-no-repeat flex justify-between items-center min-h-[50vh] h-screen text-white" style={{backgroundImage:`url(${bgImg})`}}>
        <div className="absolute inset-0 z-10 bg-black/40"></div>
-       <div className='z-20 flex justify-between items-center w-full'>
+       <div className='z-20 flex justify-between items-center w-full flex-col'>
         <div className='flex justify-center items-center'>
-            <div className='w-50 h-40 flex justify-center items-center'>
+            <div className='w-30 h-60 flex justify-center items-center'>
                 <img src={netritva} alt="" />
             </div>
             <div>
@@ -16,7 +16,7 @@ const HeroSection = () => {
                 <p className='stick-no-bills tracking-wider'>Helping Student Discover The Right Career Path Through Guidance. Clarity. And Real Conversations.</p>
             </div>
         </div>
-        <div className='mr-10 mt-10 flex flex-col gap-5'>
+        <div className='mr-10 mt-5 flex flex-row gap-5'>
             <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer'>
                 EVENT-1
             </div>
@@ -25,6 +25,9 @@ const HeroSection = () => {
             </div>
             <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer'>
                 EVENT-3
+            </div>
+            <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer'>
+                EVENT-4
             </div>
         </div>
        </div>
