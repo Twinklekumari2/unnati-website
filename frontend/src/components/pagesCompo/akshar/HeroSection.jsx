@@ -1,19 +1,20 @@
 import React from "react";
 import Akshar from "./../../../assets/aksharImg.png";
 import bgImg from "./../../../assets/imageAkshar.png";
+import rangchakraimg from "./../../../assets/rangchakra.jpg";
 import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
     const navigate = useNavigate();
   return (
     <section
-      className="relative opacity-75 bg-cover bg-center bg-no-repeat flex justify-between items-center min-h-[50vh] h-screen text-white"
+      className="relative bg-cover bg-center bg-no-repeat flex justify-between items-center min-h-[50vh] h-screen text-white"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="absolute inset-0 z-10 bg-black/40"></div>
       <div className="z-20 flex justify-between flex-col items-center w-full">
         <div className="flex justify-center items-center">
-          <div className="w-60 h-50 flex justify-center items-center opacity:5000 saturate-700">
+          <div className="w-60 h-50 flex justify-center items-center opacity:4000 saturate-400">
             <img src={Akshar} alt="" />
           </div>
           <div className="z-40">
@@ -28,8 +29,8 @@ const HeroSection = () => {
         </div>
         <div className="mr-10 mt-10 flex flex-row gap-5">
           <div
-            className="relative h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer bg-cover bg-center bg-no-repeat "
-            style={{ backgroundImage: `url(${bgImg})` }}
+            className="relative h-50 w-75 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer bg-cover bg-center bg-no-repeat "
+            style={{ backgroundImage: `url(${rangchakraimg})` }}
             onClick={() => navigate('/media/akshar/event-1')}
           >
             <div className="absolute inset-0 z-10 bg-black/40 rounded-2xl"></div>
@@ -37,7 +38,8 @@ const HeroSection = () => {
               EVENT-1 <br /> RangChakra'26
             </h1>
           </div>
-          <div className="relative h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer bg-cover bg-center bg-no-repeat " style={{ backgroundImage: `url(${bgImg})` }}
+          <div className="relative h-50 w-75 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer bg-cover bg-center bg-no-repeat " 
+          style={{ backgroundImage: `url(${bgImg})` }}
           onClick={() => navigate('/media/akshar/event-2')}
           >
             <div className="absolute inset-0 z-10 bg-black/40 rounded-2xl"></div>
@@ -45,7 +47,8 @@ const HeroSection = () => {
               EVENT-2 <br /> Children's Day
             </h1>
           </div>
-          <div className="relative h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer bg-cover bg-center bg-no-repeat"  style={{ backgroundImage: `url(${bgImg})` }}
+          <div className="relative h-50 w-75 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer bg-cover bg-center bg-no-repeat"  
+          style={{ backgroundImage: `url(${bgImg})` }}
            onClick={() => navigate('/media/akshar/event-3')}
           >
             <div className="absolute inset-0 z-10 bg-black/40 rounded-2xl "></div>
@@ -53,6 +56,7 @@ const HeroSection = () => {
               EVENT-3 <br /> RangChakra'25
             </h1>
           </div>
+          
         </div>
       </div>
     </section>

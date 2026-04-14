@@ -19,7 +19,7 @@ const HeroSection = () => {
           
         >
           <div className="relative w-45 h-40">
-            <div className="cursor-pointer w-40 h-40 aspect-square absolute left-0 top-0 bg-[#0F1E3C] flex justify-center items-center rotate-45 z-20 rounded-2xl border border-black">
+            <div className="cursor-pointer w-40 h-40 aspect-square absolute left-0 top-0 bg-[#F5E6DC] flex justify-center items-center rotate-45 z-20 rounded-2xl border border-black">
               <span className="-rotate-45" onClick={() => navigate("/media/digiXplore")}>
                 <img src={digiXplore} alt="" />
               </span>
