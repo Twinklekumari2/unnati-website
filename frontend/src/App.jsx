@@ -10,6 +10,7 @@ import MediaAkshar from './pages/MediaAkshar'
 import MediaEvent1 from './components/pagesCompo/akshar/MediaEvent1'
 import MediaEvent3 from './components/pagesCompo/akshar/MediaEvent3'
 import MediaEvent2 from './components/pagesCompo/akshar/MediaEvent2'
+import WorkShop1 from './components/pagesCompo/netritva/WorkShop1'
 import MediaSchool from './pages/MediaSchool'
 import DPS from './components/pagesCompo/school/DPS'
 import SFS from './components/pagesCompo/school/SFS'
@@ -41,6 +42,8 @@ const App = () => {
          <Route path="/media/akshar/event-1" element={<MediaEvent1/>}/>
          <Route path="/media/akshar/event-2" element={<MediaEvent2/>}/>
          <Route path="/media/akshar/event-3" element={<MediaEvent3/>}/>
+
+         <Route path="/media/netritva/workshop-1" element={<WorkShop1/>}/>
 
          <Route path="/media/outreach/school-visit" element={<MediaSchool/>}/>
          <Route path="/media/outreach/school-visit/mountAssisi" element={<MountAsisi/>}/>
