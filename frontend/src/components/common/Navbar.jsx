@@ -5,7 +5,7 @@ import locationTag from "./../../assets/placeholder.png";
 
 const Navbar = () => {
   return (
-    <nav className="flex w-full flex-wrap bg-blue-400 justify-center sm:justify-between items-center px-3 py-2">
+    <nav className="flex w-full flex-wrap bg-blue-400 justify-center sm:justify-around items-center px-3 py-2">
 
       {/* Left Section */}
       <div className="flex flex-wrap sm:flex-nowrap gap-2 items-center justify-center sm:justify-start">
