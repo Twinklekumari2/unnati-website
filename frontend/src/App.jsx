@@ -11,6 +11,15 @@ import MediaEvent1 from './components/pagesCompo/akshar/MediaEvent1'
 import MediaEvent3 from './components/pagesCompo/akshar/MediaEvent3'
 import MediaEvent2 from './components/pagesCompo/akshar/MediaEvent2'
 import WorkShop1 from './components/pagesCompo/netritva/WorkShop1'
+import GirlsInterCollege from './components/pagesCompo/digiXplore/schools/GirlsInterCollege'
+import InterCollegeBahadurpur from './components/pagesCompo/digiXplore/schools/InterCollegeBahadurpur'
+import InterCollegeSabour from './components/pagesCompo/digiXplore/schools/InterCollegeSabour'
+import MSAryaTola from './components/pagesCompo/digiXplore/schools/MSAryaTola'
+import MSRaniTalav from './components/pagesCompo/digiXplore/schools/MSRaniTalav'
+import MSBahadurpur from './components/pagesCompo/digiXplore/schools/MSBahadurpur'
+import MSBabupur from './components/pagesCompo/digiXplore/schools/MSBabupur'
+import MSJhurkhuria from './components/pagesCompo/digiXplore/schools/MSJhurkhuria'
+import MSMeerachak from './components/pagesCompo/digiXplore/schools/MSMeerachak'
 import MediaSchool from './pages/MediaSchool'
 import DPS from './components/pagesCompo/school/DPS'
 import SFS from './components/pagesCompo/school/SFS'
@@ -38,6 +47,16 @@ const App = () => {
          <Route path="/media/digiXplore" element={<MediaDigiXplore/>}/>
          <Route path="/media/netritva" element={<MediaNetritva/>}/>
          <Route path="/media/akshar" element={<MediaAkshar/>}/>
+
+         <Route path="/media/digiXplore/schools/GirlsInterCollege" element={<GirlsInterCollege/>}/>
+         <Route path="/media/digiXplore/schools/InterCollegeBahadurpur" element={<InterCollegeBahadurpur/>}/>
+         <Route path="/media/digiXplore/schools/InterCollegeSabour" element={<InterCollegeSabour/>}/>
+         <Route path="/media/digiXplore/schools/MSAryaTola" element={<MSAryaTola/>}/>
+         <Route path="/media/digiXplore/schools/MSRaniTalav" element={<MSRaniTalav/>}/>
+         <Route path="/media/digiXplore/schools/MSBahadurpur" element={<MSBahadurpur/>}/>
+         <Route path="/media/digiXplore/schools/MSBabupur" element={<MSBabupur/>}/>
+         <Route path="/media/digiXplore/schools/MSJhurkhuria" element={<MSJhurkhuria/>}/>
+         <Route path="/media/digiXplore/schools/MSMeerachak" element={<MSMeerachak/>}/>
 
          <Route path="/media/akshar/event-1" element={<MediaEvent1/>}/>
          <Route path="/media/akshar/event-2" element={<MediaEvent2/>}/>
