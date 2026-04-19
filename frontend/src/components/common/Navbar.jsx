@@ -1,7 +1,7 @@
 import React from "react";
 import Unnati from "./../../assets/Unnati.png";
 import IIITBh from "./../../assets/IIITBh.png";
-import locationTag from "./../../assets/placeholder.png";
+import locationTag from "./../../assets/location-on-map.svg";
 
 const Navbar = () => {
   return (
