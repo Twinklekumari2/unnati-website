@@ -13,7 +13,7 @@ const ImpactAkshar = () => {
           </div>
           <div>
             <h1 className="oswald-font text-4xl ">IMPACT OF</h1>
-            <h1 className="oswald-font text-blue-400 text-4xl">DIGIXPLORE</h1>
+            <h1 className="oswald-font text-blue-400 text-4xl">AKSHAR</h1>
           </div>
           <div>
             <p className="inter-font my-3 text-justify md:text-right">
