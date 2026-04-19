@@ -20,6 +20,7 @@ import MSBahadurpur from './components/pagesCompo/digiXplore/schools/MSBahadurpu
 import MSBabupur from './components/pagesCompo/digiXplore/schools/MSBabupur'
 import MSJhurkhuria from './components/pagesCompo/digiXplore/schools/MSJhurkhuria'
 import MSMeerachak from './components/pagesCompo/digiXplore/schools/MSMeerachak'
+import BabupurClass from './components/pagesCompo/akshar/BabupurClass'
 import MediaSchool from './pages/MediaSchool'
 import DPS from './components/pagesCompo/school/DPS'
 import SFS from './components/pagesCompo/school/SFS'
@@ -61,6 +62,7 @@ const App = () => {
          <Route path="/media/akshar/event-1" element={<MediaEvent1/>}/>
          <Route path="/media/akshar/event-2" element={<MediaEvent2/>}/>
          <Route path="/media/akshar/event-3" element={<MediaEvent3/>}/>
+         <Route path="/media/akshar/BabupurClass" element={<BabupurClass/>}/>
 
          <Route path="/media/netritva/workshop-1" element={<WorkShop1/>}/>
 
