@@ -24,15 +24,7 @@ const HeroSection = () => {
                 Girls Inter College,Sabour
                 
             </div>
-            <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer'>
-                EVENT-2
-            </div>
-            <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer'>
-                EVENT-3
-            </div>
-            <div className='h-50 w-50 text-2xl flex justify-center items-center rounded-2xl bg-[#c3c3c3] border-8 border-white/35 text-black purple-purse-regular cursor-pointer'>
-                EVENT-4
-            </div>
+            
         </div>
        </div>
 
