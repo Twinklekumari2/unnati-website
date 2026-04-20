@@ -70,7 +70,7 @@ const ExecutiveBody = () => {
     {
       name: "Shashank Shekhar",
       post: "Event & Membership Coordinator",
-      img: "your_cloudinary_id_3",
+      img: "shashankk_bbihmd",
       email: "shashankshekhar2734@gmail.com",
       linkedin: "https://www.linkedin.com/in/shashank-shekhar-4b6179339",
     },
