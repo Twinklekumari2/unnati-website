@@ -2,7 +2,7 @@ import React from "react";
 import IIITBH from "./../../../assets/IIITBh.png";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import { cloudinaryImage } from "../../../utils/cloudinary";
+import { cloudinaryImage, cloudinaryImage2 } from "../../../utils/cloudinary";
 
 const ExecutiveBody = () => {
   return (
@@ -41,7 +41,7 @@ const ExecutiveBody = () => {
           {/* Vice President */}
           <div className="flex flex-col justify-center items-center gap-4 border rounded-2xl p-4 shadow-lg">
             <img
-              src={cloudinaryImage("dheeraj_cuclko")}
+              src={cloudinaryImage2("divyanshu_pal_wapq8p")}
               alt="president"
               className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full"
             />
@@ -81,7 +81,7 @@ const ExecutiveBody = () => {
                 <a href="mailto:ayush.240102123@iiitbh.ac.in">
                   <MdEmail className="cursor-pointer hover:text-blue-600" />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/ayush-kumar-thakur-544886325/" target="_blank">
                   <FaLinkedin className="cursor-pointer hover:text-blue-600" />
                 </a>
               </div>
@@ -131,7 +131,7 @@ const ExecutiveBody = () => {
                 <a href="mailto:twinkle.240101143@iiitbh.ac.in">
                   <MdEmail className="cursor-pointer hover:text-blue-600" />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/twinkle-kumari-b09306325/" target="_blank">
                   <FaLinkedin className="cursor-pointer hover:text-blue-600" />
                 </a>
               </div>
@@ -141,7 +141,7 @@ const ExecutiveBody = () => {
           {/* JS - PROGRAM */}
           <div className="flex flex-col justify-center items-center gap-4 border rounded-2xl p-4 shadow-xl">
             <img
-              src={cloudinaryImage("dheeraj_cuclko")}
+              src={cloudinaryImage2("ayush_yadav_do0eth")}
               alt="president"
               className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full"
             />
@@ -156,7 +156,7 @@ const ExecutiveBody = () => {
                 <a href="mailto:ayush.240102215@iiitbh.ac.in">
                   <MdEmail className="cursor-pointer hover:text-blue-600" />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/ayush-yadav-797085325/" target="_blank">
                   <FaLinkedin className="cursor-pointer hover:text-blue-600" />
                 </a>
               </div>
