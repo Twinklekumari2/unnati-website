@@ -65,7 +65,11 @@ const Footer = () => {
             >
               Impact
             </li>
-            <li className="hover:text-white cursor-pointer">Contact</li>
+            <li className="hover:text-white cursor-pointer"
+                onClick={()=>navigate("/contact")}
+                >
+                Contact
+            </li>
             <li
               className="hover:text-white cursor-pointer"
               onClick={() => navigate("/executive-body")}

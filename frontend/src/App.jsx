@@ -31,6 +31,7 @@ import DigiXplore from './pages/DigiXplore'
 import Akshar from './pages/Akshar'
 import Netritva from './pages/Netritva'
 import Resources from './pages/Resources'
+import Contact from './pages/Contact'
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
       <Routes>
          <Route path="/" element={<Homepage/>}/>
          <Route path="/about-us" element={<AboutUs/>}/>
+         <Route path="/contact" element={<Contact/>}/>
 
          <Route path="/programs" element={<WhatWeDo/>}/>
          <Route path="/programs/digiXplore" element={<DigiXplore/>}/>
