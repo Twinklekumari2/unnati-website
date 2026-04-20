@@ -20,6 +20,7 @@ import MSBahadurpur from './components/pagesCompo/digiXplore/schools/MSBahadurpu
 import MSBabupur from './components/pagesCompo/digiXplore/schools/MSBabupur'
 import MSJhurkhuria from './components/pagesCompo/digiXplore/schools/MSJhurkhuria'
 import MSMeerachak from './components/pagesCompo/digiXplore/schools/MSMeerachak'
+import BabupurClass from './components/pagesCompo/akshar/BabupurClass'
 import MediaSchool from './pages/MediaSchool'
 import DPS from './components/pagesCompo/school/DPS'
 import SFS from './components/pagesCompo/school/SFS'
@@ -30,6 +31,7 @@ import DigiXplore from './pages/DigiXplore'
 import Akshar from './pages/Akshar'
 import Netritva from './pages/Netritva'
 import Resources from './pages/Resources'
+import Contact from './pages/Contact'
 
 const App = () => {
   return (
@@ -37,6 +39,7 @@ const App = () => {
       <Routes>
          <Route path="/" element={<Homepage/>}/>
          <Route path="/about-us" element={<AboutUs/>}/>
+         <Route path="/contact" element={<Contact/>}/>
 
          <Route path="/programs" element={<WhatWeDo/>}/>
          <Route path="/programs/digiXplore" element={<DigiXplore/>}/>
@@ -61,6 +64,7 @@ const App = () => {
          <Route path="/media/akshar/event-1" element={<MediaEvent1/>}/>
          <Route path="/media/akshar/event-2" element={<MediaEvent2/>}/>
          <Route path="/media/akshar/event-3" element={<MediaEvent3/>}/>
+         <Route path="/media/akshar/BabupurClass" element={<BabupurClass/>}/>
 
          <Route path="/media/netritva/workshop-1" element={<WorkShop1/>}/>
 

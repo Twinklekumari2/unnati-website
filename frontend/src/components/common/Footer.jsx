@@ -25,14 +25,17 @@ const Footer = () => {
             />
           </div>
           <div className="flex gap-4 text-white/70">
-            <span className="w-8 h-8 rounded-full border border-white/40 flex items-center justify-center cursor-pointer">
-              f
-            </span>
-            <span className="w-8 h-8 rounded-full border border-white/40 flex items-center justify-center cursor-pointer">
+            <span className="w-8 h-8 rounded-full border border-white/40 flex items-center justify-center cursor-pointer"
+              onClick={()=>navigate("https://www.instagram.com/unnati_society_iiitbh_/")}>        
               i
             </span>
-            <span className="w-8 h-8 rounded-full border border-white/40 flex items-center justify-center cursor-pointer">
+            <span className="w-8 h-8 rounded-full border border-white/40 flex items-center justify-center cursor-pointer"
+              onClick={()=>navigate("https://x.com/Unnati_Welfare")}>
               x
+            </span>
+            <span className="w-8 h-8 rounded-full border border-white/40 flex items-center justify-center cursor-pointer"
+              onClick={()=>navigate("https://www.linkedin.com/company/unnati-society-iiit-bhagalpur/")}>
+              in
             </span>
           </div>
           <div className="text-sm leading-relaxed">
@@ -62,7 +65,11 @@ const Footer = () => {
             >
               Impact
             </li>
-            <li className="hover:text-white cursor-pointer">Contact</li>
+            <li className="hover:text-white cursor-pointer"
+                onClick={()=>navigate("/contact")}
+                >
+                Contact
+            </li>
             <li
               className="hover:text-white cursor-pointer"
               onClick={() => navigate("/executive-body")}

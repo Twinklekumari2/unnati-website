@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { cloudinaryImage } from "../../../utils/cloudinary";
+import { cloudinaryImage2 } from "../../../utils/cloudinary";
 
 const Hero = () => {
   const navigate = useNavigate();
@@ -34,13 +35,13 @@ const Hero = () => {
               className="border-0 rounded-full p-10 bg-blue-400 aspect-square flex justify-center items-center oswald-font-3 cursor-pointer"
               onClick={() => navigate("/programs/netritva")}
             >
-              Akshar
+              Netritva
             </div>
           </div>
 
           <div
             className="h-40 w-40 md:h-50 md:w-50 border-0 rounded-full p-15 text-black aspect-square flex justify-center items-center oswald-font-3 text-2xl cursor-pointer bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${cloudinaryImage("mission2_pdc0bn")})` }}
+            style={{ backgroundImage: `url(${cloudinaryImage2("akshar_circle_wh3pw7")})` }}
           ></div>
 
           <div>
