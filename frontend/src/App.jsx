@@ -10,6 +10,7 @@ import MediaAkshar from './pages/MediaAkshar'
 import MediaEvent1 from './components/pagesCompo/akshar/MediaEvent1'
 import MediaEvent3 from './components/pagesCompo/akshar/MediaEvent3'
 import MediaEvent2 from './components/pagesCompo/akshar/MediaEvent2'
+import PrashastiMedia from './components/pagesCompo/media/PrashastiMedia'
 import WorkShop1 from './components/pagesCompo/netritva/WorkShop1'
 import GirlsInterCollege from './components/pagesCompo/digiXplore/schools/GirlsInterCollege'
 import InterCollegeBahadurpur from './components/pagesCompo/digiXplore/schools/InterCollegeBahadurpur'
@@ -65,6 +66,7 @@ const App = () => {
          <Route path="/media/akshar/event-2" element={<MediaEvent2/>}/>
          <Route path="/media/akshar/event-3" element={<MediaEvent3/>}/>
          <Route path="/media/akshar/BabupurClass" element={<BabupurClass/>}/>
+         <Route path="/media/PrashastiMedia" element={<PrashastiMedia/>}/>
 
          <Route path="/media/netritva/workshop-1" element={<WorkShop1/>}/>
 

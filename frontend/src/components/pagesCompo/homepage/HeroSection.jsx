@@ -2,6 +2,8 @@ import React from "react";
 import play from './../../../assets/play.png'
 import herosection from './../../../assets/herosection.jpeg'
 import { useNavigate } from "react-router-dom";
+import { useState,useRef } from "react";
+
 
 const HeroSection = () => {
   const navigate = useNavigate();
@@ -24,7 +26,9 @@ const HeroSection = () => {
         </div>
         <div className="flex gap-4">
           <div className="text-[12px] flex justify-center items-center sm:text-xl bg-white text-black font-extrabold oswald-font-3 px-5 py-2 cursor-pointer" onClick={() => navigate('/about-us')}>READ MORE</div>
-          <div className="text-[12px] flex justify-center items-center oswald-font-3 border font-bold border-white px-5 py-2 gap-2 cursor-pointer"><span className="bg-white rounded-full"><img src={play} alt="" /></span>WATCH VIDEO</div>
+          <div className="text-[12px] flex justify-center items-center oswald-font-3 border font-bold border-white px-5 py-2 gap-2 cursor-pointer">
+            <button className="bg-white rounded-full" ><img src={play} alt="" /></button>WATCH VIDEO
+          </div>
         </div>
       </div>
     </section>

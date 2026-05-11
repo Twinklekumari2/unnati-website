@@ -1,6 +1,7 @@
 import React from "react";
 import vision from "./../../../assets/vision2.jpg";
 import { useNavigate } from "react-router-dom";
+import TornPage from "../effects/TornPage";
 
 const Aboutus = () => {
   const navigate = useNavigate();
@@ -32,9 +33,15 @@ const Aboutus = () => {
             <div className="flex justify-center items-center w-1/2 sm:w-1/3 xl:w-1/5 oswald-font-3 bg-yellow-400 px-4 py-2 cursor-pointer" onClick={() => navigate('/about-us')}>LEARN MORE</div>
           </div>
         </div>
-        <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 h-1/2 mt-4">
-          <img src={vision} alt="vision" className="object-cover h-96 border-none rounded-4xl "/>
-        </div>
+        <div className="flex justify-center items-center py-10 bg-white">
+          <div className="relative w-87.5">
+            <div className="absolute inset-0 bg-black/20 blur-2xl translate-y-4 scale-95 rounded-[40px]" />
+            <div className="relative bg-[#f6f1e7] p-7 -rotate-2 shadow-2xl">
+              <img src={vision} alt="vision" className="w-full h-112.5 object-cover block"/>
+              <TornPage/>
+            </div>
+            </div>
+          </div>
       </div>
     </section>
   );

@@ -1,7 +1,9 @@
 import React from 'react'
 import icon from './../../../assets/right-arrow.png'
+import { useNavigate } from "react-router-dom";
 
 const Events = () => {
+  const navigate = useNavigate();
   return (
     <section className='flex justify-center items-center py-20 w-screen '>
         <div className='flex flex-col gap-10 w-3/4 overflow-x-hidden md:overflow-x-scroll scrollbar-hide'>
@@ -16,7 +18,9 @@ const Events = () => {
                         <h1 className='oswald-font-3'>UNNATI PRASASTHI SAMAROH</h1>
                     </div>
                     <div className='bg-white border-0 rounded-full p-2 cursor-pointer'>
-                        <img src={icon} alt="" />
+                        <img src={icon} alt="" 
+                             onClick={()=>navigate("/media/PrashastiMedia")}      
+                        />
                     </div>
                 </div>
                 <div className='w-full md:min-w-1/2 lg:min-w-1/3 border rounded-2xl bg-[#FACC15] p-5 border-none flex justify-between items-center'>
@@ -26,7 +30,9 @@ const Events = () => {
                         <h1 className='oswald-font-3'>CHILDREN'S DAY</h1>
                     </div>
                     <div className='bg-white border-0 rounded-full p-2 cursor-pointer'> 
-                        <img src={icon} alt="" />
+                        <img src={icon} alt="" 
+                             onClick={()=>navigate("/media/akshar/event-2")}                        
+                        />
                     </div>
                 </div>
             </div>

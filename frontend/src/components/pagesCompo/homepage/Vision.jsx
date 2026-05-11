@@ -46,12 +46,14 @@ const Vision = () => {
             </div>
           </div>
         </div>
-        <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 h-full mt-4 ">
-          <img
-            src={mission}
-            alt="vision"
-            className=" object-fill h-96 border-none rounded-4xl "
-          />
+        <div className="flex justify-center py-10 bg-gray-100">
+          <div
+            className="group relative transition-all duration-500 hover:rotate-3 hover:-translate-y-4">
+            <div className="absolute inset-0 bg-black/20 blur-2xl rounded-[30px]" />
+            <img src={mission} alt="vision"
+                 className="relative w-[320px] h-105 object-cover rounded-[30px] border-10 border-white shadow-2xl"
+            />
+          </div>
         </div>
       </div>
     </section>
