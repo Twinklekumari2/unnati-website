@@ -2,8 +2,36 @@ import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { cloudinaryImage, cloudinaryImage2 } from "../../../utils/cloudinary";
+import directorImg from "../../../assets/directorsir.png";
+import prImg from "../../../assets/prsir.png";
+import chetanImg from "../../../assets/chetansir.jpg";
+
 
 const ExecutiveBody = () => {
+
+  const facultyExecutive=[
+    {
+      name: "Prof. Madhusudan Singh",
+      post: "Director, IIIT Bhagalpur",
+      img: directorImg,
+      email: "director@iiitbh.ac.in",
+      linkedin: "https://www.linkedin.com/in/dheeraj-yadav-681325218",
+    },
+    {
+      name: "Dr. Prakash Ranjan",
+      post: "Faculty In-Charge, Unnati Society",
+      img: prImg,
+      email: "pranjan.ece@iiitbh.ac.in",
+      linkedin: "https://www.linkedin.com/in/dr-prakash-ranjan/",
+    },
+    {
+      name: "Dr. Chetan Barde",
+      post: "Faculty Mentor, Unnati Society",
+      img: chetanImg,
+      email: "cbarde.ece@iiitbh.ac.in",
+      linkedin: "https://www.linkedin.com/in/dr-chetan-barde-07146449/",
+    },
+  ]
 
   const membersExecutive = [
     {
@@ -49,7 +77,7 @@ const ExecutiveBody = () => {
       linkedin: "https://www.linkedin.com/search/results/all/?keywords=ayush%20yadav",
     },
   ];
-const membersLead = [
+const prLeads = [
   {
     name: "Sanjana Adhikari",
     post: "Social Media Lead",
@@ -65,6 +93,13 @@ const membersLead = [
     linkedin: "https://www.linkedin.com/in/harsh-kumar-yadav-20844a2b6",
   },
   {
+    name: "Krish Sonkar",
+    post: "Research and Development Lead",
+    img: "1759778636960_-_KRISH_SONKAR_uiuvvy",
+    email: "krish.240101127@iiitbh.ac.in",
+    linkedin: "#",
+  },
+  {
     name: "Shashank Shekhar",
     post: "Event & Membership Coordinator",
     img: "shashankk_bbihmd",
@@ -72,11 +107,11 @@ const membersLead = [
     linkedin: "https://www.linkedin.com/in/shashank-shekhar-4b6179339/",
   },
   {
-    name: "Krish Sonkar",
-    post: "Research and Development",
-    img: "1759778636960_-_KRISH_SONKAR_uiuvvy",
-    email: "krish.240101127@iiitbh.ac.in",
-    linkedin: "#",
+    name: "Anushka Sonkar",
+    post: "Event and Membership Coordinator",
+    img: "Screenshot_2026-04-20_190608_s86hsv",
+    email: "anushka.240102057@iiitbh.ac.in",
+    linkedin: "https://www.linkedin.com/in/anushka-sonkar-2b9ba5324",
   },
   {
     name: "Navneet Jaiswal",
@@ -93,46 +128,11 @@ const membersLead = [
     linkedin: "https://www.linkedin.com/in/prabhat-rai",
   },
   {
-    name: "Divya",
-    post: "Digixplore Lead",
-    img: "IMG-20260301-WA0099_-_Divya_Patlan_nndf4y",
-    email: "divya.240101288@iiitbh.ac.in",
-    linkedin: "https://www.linkedin.com/in/divya-patlan-4a2018324",
-  },
-  {
-      name: "Twinkle Kumari",
-      post: "Web Developmnt Lead",
-      img: "twinkle_akhjbq",
-      email: "twinkle.240101143@iiitbh.ac.in",
-      linkedin: "https://www.linkedin.com/in/twinkle-kumari-b09306325/",
-    },
-  {
-    name: "Ishani Karpoor",
-    post: "App Development Lead",
-    img: "ishani_punner",
-    email: "ishani.240103291@iiitbh.ac.in",
-    linkedin: "https://www.linkedin.com/in/ishani-karpoor-8a73b1312",
-  },
-  {
-    name: "Jayanshu Bhardwaj",
-    post: "Netritva Lead",
-    img: "jayanshu_gdrakx",
-    email: "jayanshu18@gmail.com",
-    linkedin: "https://www.linkedin.com/in/jayanshu-bhardwaj-05a791322/",
-  },
-  {
     name: "Sukrit Aryan",
     post: "Design and Content Lead",
     img: "Sukrit_Aryan_xgrmzg",
     email: "sukritaryan1@gmail.com",
     linkedin: "https://www.linkedin.com/in/sukrit-aryan",
-  },
-  {
-    name: "Anuj Sah",
-    post: "Digixplore Lead",
-    img: "Anuj_Sah_yohlp3",
-    email: "anujah375@gmail.com",
-    linkedin: "#",
   },
   {
     name: "Satyak Atul Govindwar",
@@ -141,14 +141,46 @@ const membersLead = [
     email: "satyakatulgovindwar@gmail.com",
     linkedin: "https://www.linkedin.com/in/satyak-govindwar-6b2246324",
   },
-  {
-    name: "Anushka Sonkar",
-    post: "Event and Membership Coordinator",
-    img: "Screenshot_2026-04-20_190608_s86hsv",
-    email: "anushka.240102057@iiitbh.ac.in",
-    linkedin: "https://www.linkedin.com/in/anushka-sonkar-2b9ba5324",
-  },
 ];
+  const programLeads=[
+    {
+      name: "Anuj Sah",
+      post: "Digixplore Lead",
+      img: "Anuj_Sah_yohlp3",
+      email: "anujah375@gmail.com",
+      linkedin: "#",
+    },
+    {
+      name: "Divya",
+      post: "Digixplore Lead",
+      img: "IMG-20260301-WA0099_-_Divya_Patlan_nndf4y",
+      email: "divya.240101288@iiitbh.ac.in",
+      linkedin: "https://www.linkedin.com/in/divya-patlan-4a2018324",
+    },
+    {
+      name: "Jayanshu Bhardwaj",
+      post: "Netritva Lead",
+      img: "jayanshu_gdrakx",
+      email: "jayanshu18@gmail.com",
+      linkedin: "https://www.linkedin.com/in/jayanshu-bhardwaj-05a791322/",
+    },
+  ]
+  const technicalLeads=[
+    {
+      name: "Twinkle Kumari",
+      post: "Web Developmnt Lead",
+      img: "twinkle_akhjbq",
+      email: "twinkle.240101143@iiitbh.ac.in",
+      linkedin: "https://www.linkedin.com/in/twinkle-kumari-b09306325/",
+    },
+    {
+      name: "Ishani Karpoor",
+      post: "App Development Lead",
+      img: "ishani_punner",
+      email: "ishani.240103291@iiitbh.ac.in",
+      linkedin: "https://www.linkedin.com/in/ishani-karpoor-8a73b1312",
+    },
+  ]
 
 
   const Card = ({ member }) => (
@@ -156,6 +188,40 @@ const membersLead = [
 
       <img
         src={cloudinaryImage(member.img)}
+        alt={member.name}
+        className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full"
+      />
+
+      <div className="text-center">
+        <h1 className="oswald-font-3 text-sm md:text-base">
+          {member.post}
+        </h1>
+
+        <h1 className="stick-no-bills text-xl tracking-wider">
+          {member.name}
+        </h1>
+
+        <div className="flex gap-4 justify-center mt-2 text-xl">
+          <a href={`mailto:${member.email}`}>
+            <MdEmail className="cursor-pointer hover:text-blue-600" />
+          </a>
+
+          {member.linkedin && member.linkedin !== "#" && (
+            <a href={member.linkedin} target="_blank" rel="noreferrer">
+              <FaLinkedin className="cursor-pointer hover:text-blue-600" />
+            </a>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+
+  const Card2 = ({ member }) => (
+    <div className="flex flex-col justify-center items-center gap-4 rounded-2xl p-4 shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 bg-white">
+
+      <img
+        src={member.img}
         alt={member.name}
         className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full"
       />
@@ -193,8 +259,12 @@ const membersLead = [
         <h1 className="oswald-font-3 text-3xl md:text-4xl mb-8 text-center">
           EXECUTIVE BODY 2025-26
         </h1>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-6 max-w-7xl px-4">
+        <div className="flex flex-wrap justify-center gap-6 max-w-6xl px-4">
+          {facultyExecutive.map((member, index) => (
+            <Card2 key={index} member={member} />
+          ))}
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-6 max-w-7xl px-4 m-4">
           {membersExecutive.map((member, index) => (
             <Card key={index} member={member} />
           ))}
@@ -207,8 +277,18 @@ const membersLead = [
           TEAM LEADS
         </h1>
 
-        <div className="flex flex-wrap justify-center gap-6 max-w-6xl px-4">
-          {membersLead.map((member, index) => (
+        <div className="flex flex-wrap justify-center gap-6 max-w-8xl px-4 m-5">
+          {prLeads.map((member, index) => (
+            <Card key={index} member={member} />
+          ))}
+        </div>
+        <div className="flex flex-wrap justify-center gap-6 max-w-6xl px-4 m-5">
+          {programLeads.map((member, index) => (
+            <Card key={index} member={member} />
+          ))}
+        </div>
+        <div className="flex flex-wrap justify-center gap-6 max-w-6xl px-4 m-5">
+          {technicalLeads.map((member, index) => (
             <Card key={index} member={member} />
           ))}
         </div>
