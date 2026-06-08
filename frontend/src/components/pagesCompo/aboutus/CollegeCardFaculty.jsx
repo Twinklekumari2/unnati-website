@@ -79,7 +79,7 @@ const CollegeCardFaculty = () => {
 
             </p>
 
-            <p className="mt-3 font-[Open_Sans] text-lg text-white/85 text-justify md:text-left">
+            <p className="mt-3 font-[Open_Sans] text-white/85 text-justify md:text-left">
 
               {card.content}
 
