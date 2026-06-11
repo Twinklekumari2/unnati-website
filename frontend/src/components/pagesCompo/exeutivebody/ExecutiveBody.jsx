@@ -254,16 +254,23 @@ const prLeads = [
   return (
     <section className="py-10 bg-gray-50">
 
-      {/* EXECUTIVE BODY */}
+      {/* GOVERNING BODY */}
       <div className="flex flex-col items-center mb-16">
         <h1 className="oswald-font-3 text-3xl md:text-4xl mb-8 text-center">
-          EXECUTIVE BODY 2025-26
+          GOVERNING BODY 2025-26
         </h1>
         <div className="flex flex-wrap justify-center gap-6 max-w-6xl px-4">
           {facultyExecutive.map((member, index) => (
             <Card2 key={index} member={member} />
           ))}
         </div>
+      </div>
+
+      {/* EXECUTIVE BODY */}
+      <div className="flex flex-col items-center mb-16">
+        <h1 className="oswald-font-3 text-3xl md:text-4xl mb-8 text-center">
+          EXECUTIVE BODY 2025-26
+        </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-6 max-w-7xl px-4 m-4">
           {membersExecutive.map((member, index) => (
             <Card key={index} member={member} />
@@ -272,28 +279,60 @@ const prLeads = [
       </div>
 
       {/* TEAM LEADS */}
-      <div className="flex flex-col items-center">
-        <h1 className="oswald-font-3 text-3xl md:text-4xl mb-8 text-center">
+      <div className="flex flex-col items-center px-4">
+        <h1 className="oswald-font-3 text-3xl md:text-4xl mb-10 text-center">
           TEAM LEADS
         </h1>
 
-        <div className="flex flex-wrap justify-center gap-6 max-w-8xl px-4 m-5">
-          {prLeads.map((member, index) => (
-            <Card key={index} member={member} />
-          ))}
+        {/* HEADINGS */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 w-full max-w-7xl mb-6">
+
+          <div className="xl:col-span-2 flex justify-center">
+            <h2 className="text-2xl oswald-font-3 text-center">
+              PR & OPERATIONS
+            </h2>
+          </div>
+
+          <div className="flex justify-center">
+            <h2 className="text-2xl oswald-font-3 text-center">
+              PROGRAMS
+            </h2>
+          </div>
+
+          <div className="flex justify-center">
+            <h2 className="text-2xl oswald-font-3 text-center">
+              TECHNICAL
+            </h2>
+          </div>
         </div>
-        <div className="flex flex-wrap justify-center gap-6 max-w-6xl px-4 m-5">
-          {programLeads.map((member, index) => (
-            <Card key={index} member={member} />
-          ))}
-        </div>
-        <div className="flex flex-wrap justify-center gap-6 max-w-6xl px-4 m-5">
-          {technicalLeads.map((member, index) => (
-            <Card key={index} member={member} />
-          ))}
+
+        {/* CONTENT */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 w-full max-w-7xl items-start">
+
+          <div className="flex flex-col gap-6">
+            {prLeads.slice(0, Math.ceil(prLeads.length / 2)).map((member, index) => (
+              <Card key={index} member={member} />
+            ))}
+          </div>
+          <div className="flex flex-col gap-6">
+            {prLeads.slice(Math.ceil(prLeads.length / 2)).map((member, index) => (
+              <Card key={index} member={member} />
+            ))}
+          </div>
+
+          <div className="flex flex-col gap-6">
+            {programLeads.map((member, index) => (
+              <Card key={index} member={member} />
+            ))}
+          </div>
+
+          <div className="flex flex-col gap-6">
+            {technicalLeads.map((member, index) => (
+              <Card key={index} member={member} />
+            ))}
+          </div>
         </div>
       </div>
-
     </section>
   );
 };
