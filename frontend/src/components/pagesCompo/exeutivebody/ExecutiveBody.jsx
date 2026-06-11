@@ -1,7 +1,7 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import { cloudinaryImage, cloudinaryImage2 } from "../../../utils/cloudinary";
+import { cloudinaryImage} from "../../../utils/cloudinary";
 import directorImg from "../../../assets/directorsir.png";
 import prImg from "../../../assets/prsir.png";
 import chetanImg from "../../../assets/chetansir.jpg";
@@ -58,7 +58,7 @@ const ExecutiveBody = () => {
     {
       name: "Jayanshu Bhardwaj",
       post: "JS PUBLIC RELATION",
-      img: "jayanshu_gdrakx",
+      img: "jayanshuu_iwno29",
       email: "jayanshu.240101181@iitbh.ac.in",
       linkedin: "https://www.linkedin.com/in/jayanshu-bhardwaj-05a791322/",
     },
