@@ -13,14 +13,14 @@ const DigiXplore = () => {
           </div>
           <div className="mt-4 flex justify-between">
             <div className="flex flex-col w-1/2 gap-3">
-              <div className="text-blue-400 text-3xl sm:text-4xl md:text-5xl inter-font-3">200+</div>
+              <div className="text-blue-400 text-3xl sm:text-4xl md:text-5xl inter-font-3">280+</div>
               <div className="inter-font-3 text-wrap">
                 CHILDREN RECEIVED QUALITY EDUCATION
               </div>
             </div>
             <div className="flex flex-col gap-3 ">
-              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">12+</div>
-              <div className="inter-font-3 text-wrap">SCHOOLS OPENED</div>
+              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">8</div>
+              <div className="inter-font-3 text-wrap">SCHOOLS REACHED</div>
             </div>
           </div>
         </div>

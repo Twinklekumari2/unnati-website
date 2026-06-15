@@ -57,14 +57,14 @@ const Netritva = () => {
 
           <div className="mt-4 flex justify-between">
             <div className="flex flex-col w-1/2 gap-3">
-              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">200+</div>
+              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">30+</div>
               <div className="inter-font-3">
                 CHILDREN RECEIVED GUIDANCE
               </div>
             </div>
 
             <div className="flex flex-col gap-3">
-              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">12+</div>
+              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">1</div>
               <div className="inter-font-3">
                 SCHOOLS REACHED
               </div>

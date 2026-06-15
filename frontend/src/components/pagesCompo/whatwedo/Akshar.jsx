@@ -16,13 +16,13 @@ const Akshar = () => {
 
           <div className="mt-4 flex justify-between">
             <div className="flex flex-col w-1/2 gap-3">
-              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">200+</div>
+              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">80+</div>
               <div className="inter-font-3">CHILDREN EDUCATED</div>
             </div>
 
             <div className="flex flex-col gap-3">
-              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">12+</div>
-              <div className="inter-font-3">BRANCHES OPENED</div>
+              <div className="text-blue-400 text-3xl sm:text-3xl md:text-5xl inter-font-3">1</div>
+              <div className="inter-font-3">BRANCH OPENED</div>
             </div>
           </div>
         </div>
