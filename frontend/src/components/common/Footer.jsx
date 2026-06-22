@@ -7,7 +7,7 @@ const Footer = () => {
   const navigate = useNavigate();
   return (
     <footer className="bg-black text-white px-16 py-14">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12">
         <div className="flex flex-col gap-6">
           <div className="flex items-center gap-4">
             <img
@@ -124,6 +124,43 @@ const Footer = () => {
             <button className="px-4 py-2 text-sm bg-white text-black font-semibold">
               OK
             </button>
+          </div>
+        </div>
+        <div className="flex flex-col gap-5">
+          <div className="flex items-center gap-3">
+            <span className="text-xl">📍</span>
+            <div>
+              <h3 className="text-base font-semibold text-white">
+                Find us
+              </h3>
+              <p className="text-xs text-white/60">
+                IIIT Bhagalpur, Bihar (813210)
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <span className="text-xl">📞</span>
+            <div>
+              <h3 className="text-base font-semibold text-white">
+                Call us
+              </h3>
+              <p className="text-xs text-white/60">
+                +91 9999999999
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <span className="text-xl">✉️</span>
+            <div>
+              <h3 className="text-base font-semibold text-white">
+                Mail us
+              </h3>
+              <p className="text-xs text-white/60">
+                unnati.ir@iiitbh.ac.in
+              </p>
+            </div>
           </div>
         </div>
       </div>
