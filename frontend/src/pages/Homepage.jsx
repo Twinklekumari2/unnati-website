@@ -10,6 +10,7 @@ import Conttibute from '../components/pagesCompo/homepage/Conttibute'
 import Events from '../components/pagesCompo/homepage/Events'
 import Education from '../components/pagesCompo/homepage/Education'
 import Footer from '../components/common/Footer'
+import Impact from '../components/pagesCompo/homepage/Impact'
 import Testimonial1 from '../components/pagesCompo/homepage/Testimonial1'
 import Testimonial2 from '../components/pagesCompo/homepage/Testimonial2'
 import Testimonial3 from '../components/pagesCompo/homepage/Testimonial3'
@@ -25,6 +26,7 @@ const Homepage = () => {
         <Education/>
         <Vision/>
         <Testimonial2/>
+        <Impact/>
         <Program/>
         <Testimonial3/>
         <Data/>
